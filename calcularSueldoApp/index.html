@@ -1,0 +1,59 @@
+<!doctype html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+ <head> 
+  <meta charset="UTF-8"> 
+  <!--<title> Responsive Footer | CodingLab</title>---> 
+  <link rel="stylesheet" href="style.css"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> 
+  <!-- Latest compiled and minified CSS --> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+  <!-- jQuery library --> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <!-- Popper JS --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+  <!-- Latest compiled JavaScript --> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  <link href="css/menu.css" rel="stylesheet"> 
+  <title> Entrada al sistema de salarios </title> 
+ </head> 
+ <body> 
+  <header> 
+   <div class="header"> 
+    <h1>calcular el sueldo de los profesores</h1> 
+   </div> 
+  </header> 
+  <div class="forms"> 
+   <from> 
+    <center> 
+     <div class="img"> 
+      <img src="https://www.nosequeestudiar.net/site/assets/files/4967/logo-curn.180x180.jpg" alt="logo"> 
+     </div> 
+    </center> 
+    <br> nombre: 
+    <input id="nom" type="text"placeholder="digite su nombre"  class="form-control mb-3"> 
+      apellido: 
+    <input id="ape" type="text" placeholder="digite su apellido"  class="form-control mb-3">
+       documento:  
+     <input id="iden" type="number" placeholder="digite su numero de identificacion"  class="form-control mb-3">
+      horas trabajadas:    
+     <input id="num1" type="number" placeholder="digite el número de horas trabajadas" class="form-control mb-3"> valor de la hora: 
+    <input id="num2" type="number" placeholder="digite el valor de la hora" class="form-control mb-3"> 
+    <p>sueldo del profesor: </p> 
+    <div class="resul"> 
+     <p id="resultado" style="color: white;"></p> 
+    </div> 
+    <br> 
+    <button id="bcalc" onclick="operaciones('multiplicar'); return false;" class="btn btn-dark btn-block ">Calculaito</button> 
+    <br> 
+   </from> 
+  </div> 
+  <footer> 
+   <div class="footer"> 
+    <h2>corporacion universitaria rafael nuñez</h2> 
+   </div> 
+  </footer> 
+  <script type="text/javascript" src="js/form.js"></script> 
+ </body>
+</html>
